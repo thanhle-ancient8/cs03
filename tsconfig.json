@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2020",
-    "lib": ["es2020"],
+    "lib": [
+      "es2020"
+    ],
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,10 +16,19 @@
     "removeComments": true,
     "resolveJsonModule": true
   },
-  "include": ["index.ts", "src", "abi"],
-  "exclude": ["node_modules", "dist"],
+  "include": [
+    "index.ts",
+    "src",
+    "abi"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "typedocOptions": {
-    "entryPoints": ["./src/index.ts"],
+    "entryPoints": [
+      "./src/index.ts"
+    ],
     "out": "docs"
   }
 }
